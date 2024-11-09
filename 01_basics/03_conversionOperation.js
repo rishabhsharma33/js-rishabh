@@ -23,4 +23,35 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "" => false
 // "notEmptyString" => true
 
-let someNumber
+let someNumber = 33;
+
+let valInString = String(someNumber)
+// console.log(typeof valInString)
+
+// ~~~~~~~~~~~~Operations~~~~~~~~~~~~~~//
+
+// console.log(2 + 2);
+// console.log(2 - 2);
+// console.log(2 * 2);
+// console.log(2 / 2);
+// console.log(2 ** 4);
+// console.log(2 % 3);
+
+let str1 = "hello"
+let str2 = " rishabh"
+let str3 = str1 + str2
+// console.log(str3)
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + (2 + 2));
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+
+let gameCounter = 100;
+++gameCounter;
+gameCounter++;
+// console.log(gameCounter);
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment 
